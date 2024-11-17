@@ -1,0 +1,15 @@
+*** Creating an AWS Account ***
+
+- so we head to aws.com to create an aws account
+
+
+
+first thing you have to do:
+- is to specify a route user email address
+which is your main email address.
+
+- And they will be used to log to your Amazon accounts.
+On top of it, you can specify a name for account.
+For example, moody-demo-v3.
+
+- while creating it we use personal and use the free trail
