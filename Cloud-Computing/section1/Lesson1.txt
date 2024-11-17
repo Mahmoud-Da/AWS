@@ -1,0 +1,19 @@
+architect exam of code SAA-C03
+
+cover over 30 AWS services
+
+What`s AWS:
+- AWS(amazon web services) is a cloud provider.
+- It provides you with servers and services that you can use
+on demand and scale easily
+
+- AWS as IT has been revolutionized. And now today, AWS power some
+of the biggest websites in the world.
+
+ex:
+Amazon.com
+Netflix (they don`t rent a single server they rent it from AWS)
+
+what is hard in AWS is it like "spaghetti bowl", because all these services are linked
+and interconnected with one another.
+
