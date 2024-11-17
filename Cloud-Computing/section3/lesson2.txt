@@ -1,0 +1,44 @@
+*** Tour of the AWS Console & Services in AWS ***
+
+inside AWS Console Home top right corner of your screen, right now, this is what's called the regions selector,
+we can select the regions default is Northern Virginia.
+
+- Next in the console console, you will see a list
+of recently visited services
+
+- On the bottom you get some information about AWS.
+You get the health issues, if need be and cost and usage info for your accounts
+as well as tutorials to build a solution and so on.
+
+PS: AWS CONSOLE UI may change in future
+
+- now to look for the service of the AWS:
+we 3 ways:
+click on icon of square on the left screen (left the search bar)
+- click "All Services"
+to see all the services ordered by alphabet 
+
+- click "Compute"
+to see all the services depends on category
+
+- search bar (fastest way)
+example we can search "routes 53"
+we will have 4 services that match the search keyword 
+and we can look into the feature and we can see blogs and documentation also
+
+
+
+- now if go to the "routes 53" in the region selector we can see "Global" 
+That means that this console does not require a region selection.
+And that is more of the exception than the rule, but some services in AWS are where
+it's called global services and no matter where you are you're going to get the same view.
+But if you switch services and you go, for example to the EC two service,
+this time on the top right hand side, as you can see it says N.Virginia because we leave it default to N.Virginia
+And so based if we run this console in  N.Virginia or say in another region, for example, in Canada,
+well my view is going to be different
+
+AWS global infrastructure:
+if we google it this gives you a lot
+of information around your services.
+
+And one thing that is very important to look at so sometimes the service may not be exist depends on the region

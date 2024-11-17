@@ -1,0 +1,154 @@
+*** AWS Cloud Overview - Regions & AZ ***
+
+
+- It was launched in 2002 internally at amazon.com
+because they realized that the IT departments
+could be externalized. Their Amazon infrastructure was one of their core strengths
+and they said, you know what?
+"Maybe we can do IT for someone else, for other people."
+
+- So they launched their first offering publicly,
+which was SQS in 2004.
+
+- In 2006, they expanded their offering
+and they relaunched with the availability of SQS S3 and EC2.
+
+
+Then they expanded and said, you know what?
+
+"We don't have to be just in America.
+
+We could be in Europe."
+
+- so 2007 it launched in Europe
+
+- And then fast forward to today, we have so many applications
+
+that used to run, or are still running on AWS,
+
+such as Dropbox, Netflix, Airbnb, or even the NASA.
+
+
+
+If you look at the Magic Quadrant from Gartner,
+you can see that AWS is a leader,
+and it has been the case for many, many years.
+AWS now has $90 billion in revenue as of 2023,
+and it accounts for about 31% of the market in Q1 2024,
+with Microsoft being second with 25%.
+It's been a pioneer and a leader of the market
+for 13th consecutive years,
+and it has over 1 million active users.
+
+
+so What can you build on AWS?
+
+- AWS will enable you to build sophisticated and scalable applications,
+- applicable to a diverse set of industries.
+Uses cases include:
+- just transferring your enterprise IT,
+- using the cloud as a backup and storage,
+- doing some big data analytics.
+- You can also host a website,
+- create a backend for your mobile
+- and your social applications,
+- you can have your entire gaming servers
+running on the cloud.
+
+AWS is global:
+it has
+- AWS Regions
+- AWS Availability zones
+- AWS Data Centers
+- AWS Edge locations / points of presence
+
+we can check it inside 
+https://infrastructure.aws/
+
+
+
+AWS Regions:
+- Regions are all around the world (saw it in the map)
+- from before the regions have a name.
+It could be US-east-1, EU-West-3,
+- region is a cluster of data centers
+
+a region, what is in its truly?
+- Well, it's going to be a cluster of data centers.
+Many different data centers look at it in near,
+for example, Ohio, or Singapore, or Sydney, or Tokyo.
+
+When we use AWS services, most services are going to be linked in scope
+to a specific region. That means that if we use a service in one region
+and we try to use it in another region, it will be like a new time of using the service.
+
+
+so, how do you choose an AWS region?
+Say you're launching a new application,
+where should you do it?
+Should you do it in America, in Europe, in South America, or in Australia?
+
+- some factors that may impact your choice
+- compliance.:
+Sometimes governments want the data to be local, to the country you're deploying the application in.
+For example, France,
+data in France may have to stay in France,
+and therefore you should launch your application
+in the French region.
+
+- Proximity:
+If most of your users are going to be in America, it makes a lot of sense to deploy your application
+in America close to your users, because they will have a reduced latency.
+If you deploy your application in Australia, and your users are in America,
+they will have a lot of lag using your application.
+
+
+- Available services:
+Some regions do not have services, and so obviously if you're leveraging a service
+with your application, you need to make sure that the region you're deploying into is available,
+and does have that service.
+
+- Pricing:
+Pricing does vary from region to region, and you need to consult the app
+The services pricing pages to see, what the differences are between the regions.
+But this could be obviously a factor that could impact your deployment
+of an application into a specific region.
+
+
+AWS Availability Zones:
+what actually are going into the region. Each region will have many availability zones,
+usually three, the minimum is three, and the max is six, but really the usual is three.
+
+let's take the Sydney region as an example:
+The Sydney region code is ap-southeast-2.
+We have two have three availability zones in Sydney,
+- ap-southeast-2A
+- ap-southeast-2B
+- ap-southeast-2C
+
+- each of these availability zones are going to be one
+or more discrete data centers that will have redundant power networking and connectivity.
+
+That means that in southeast-2A,
+I can have two data centers maybe as well,
+2 and 2B, and 2 and 2C.
+But it could be one, it could be three, it could be four.
+We don't really know, it always doesn't tell us that.
+
+But what we know is that these availability zones, are separate from each other
+so that they will be isolated from disasters.
+If something happens to ap-southeast-2A, we know that it is designed not to cascade
+into ap-southeast-2B, or ap-southeast-2C. They're really isolated from disasters.
+
+And then these data centers, these availability zones, they are connected with high bandwidth,
+ultra-low latency networking, and therefore, altogether being linked together,
+it will form a region.
+
+
+AWS points of presence(Edge locations):
+- that AWS has more than 400 points of presence in 90 cities,
+across 40 countries.
+- And this will be very helpful when we deliver content
+to the end users with the lowest latency possible.
+
+
